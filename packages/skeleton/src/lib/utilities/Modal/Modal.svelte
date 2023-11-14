@@ -53,9 +53,9 @@
 
 	// Props (buttons)
 	/** Provide classes for neutral buttons, such as Cancel. */
-	export let buttonNeutral: CssClasses = 'variant-ghost-surface';
+	export let buttonNeutral: CssClasses = 'variant-ghost-primary';
 	/** Provide classes for positive actions, such as Confirm or Submit. */
-	export let buttonPositive: CssClasses = 'variant-filled';
+	export let buttonPositive: CssClasses = 'variant-filled-primary';
 	/** Override the text for the Cancel button. */
 	export let buttonTextCancel: CssClasses = 'Cancel';
 	/** Override the text for the Confirm button. */
